@@ -1,0 +1,10 @@
+# Student: mohamed nabil se3
+# configmap.yaml – Environment config for the app
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-app-config
+  namespace: default
+data:
+  APP_VERSION: "1.0"
+  ENVIRONMENT: "kubernetes-lab"
